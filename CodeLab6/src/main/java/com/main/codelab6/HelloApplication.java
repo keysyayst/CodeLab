@@ -55,7 +55,6 @@ public class HelloApplication extends Application {
                 actiontarget.setText("Password atau Username Salah");
             }
         });
-
         Scene scene = new Scene(grid, 300, 275);
         primaryStage.setScene(scene);
         primaryStage.show();
@@ -106,7 +105,6 @@ public class HelloApplication extends Application {
 
         final Text actiontarget = new Text();
         grid.add(actiontarget, 1, 6);
-
 
         return new Scene(grid, 300, 275);
     }
